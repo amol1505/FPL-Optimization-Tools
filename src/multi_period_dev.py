@@ -756,7 +756,7 @@ def solve_multi_period_fpl(data, options):
                         while True:
                             output = process.stdout.readline()
                             if 'Solving report' in output:
-                                time.sleep(23)
+                                time.sleep(50)
                                 process.kill()
                             elif output == '' and process.poll() is not None:
                                 break
