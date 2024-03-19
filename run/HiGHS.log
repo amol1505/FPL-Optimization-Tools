@@ -1,0 +1,572 @@
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Number of PL entries in BOUNDS section is 10
+Number of BV entries in BOUNDS section is 43884
+MIP  mp_h10_od_d0.85_AZPlC_0 has 76266 rows; 43926 cols; 302453 nonzeros; 43915 integer variables
+Presolving model
+45483 rows, 38890 cols, 183069 nonzeros
+40724 rows, 36464 cols, 160051 nonzeros
+
+Solving MIP model with:
+   40724 rows
+   36464 cols (36438 binary, 17 integer, 9 implied int., 0 continuous)
+   160051 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -6502.212862    inf                  inf        0      0      0         0     1.7s
+         0       0         0   0.00%   -364.0321003    inf                  inf        0      0      2     22068    16.8s
+         0       0         0   0.00%   -356.5748528    inf                  inf       90     15      5     23590    24.6s
+         0       0         0   0.00%   -355.5197791    inf                  inf      107     19      7     24420    29.9s
+         0       0         0   0.00%   -353.1751415    inf                  inf      318     22      9     24993    35.0s
+         0       0         0   0.00%   -353.1141765    inf                  inf      343     29     11     25248    41.6s
+         0       0         0   0.00%   -353.1109764    inf                  inf      385     34     79     25282   106.3s
+ L       0       0         0   0.00%   -353.1109764    -352.461907        0.18%      385     34     79     25282   150.8s
+
+59.5% inactive integer columns, restarting
+Model after restart has 13178 rows, 13085 cols (13067 bin., 9 int., 9 impl., 0 cont.), and 58419 nonzeros
+
+         0       0         0   0.00%   -353.1092864    -352.461907        0.18%       15      0      0     38526   151.9s
+         0       0         0   0.00%   -353.1092864    -352.461907        0.18%       15     14      3     47210   154.7s
+
+7.0% inactive integer columns, restarting
+Model after restart has 12126 rows, 12031 cols (12015 bin., 7 int., 9 impl., 0 cont.), and 53109 nonzeros
+
+         0       0         0   0.00%   -353.1072206    -352.461907        0.18%       18      0      0     47250   159.4s
+         0       0         0   0.00%   -353.1072206    -352.461907        0.18%       18     18      3     53078   161.7s
+
+Symmetry detection completed in 0.0s
+Found 1 full orbitope(s) acting on 12 columns
+
+         2       0         1  50.00%   -353.1072206    -352.461907        0.18%       24     18     65    117002   198.8s
+
+Solving report
+  Status            Optimal
+  Primal bound      -352.461907
+  Dual bound        -352.496236583
+  Gap               0.00974% (tolerance: 0.01%)
+  Solution status   feasible
+                    -352.461907 (objective)
+                    0 (bound viol.)
+                    2.37920794177e-13 (int. viol.)
+                    0 (row viol.)
+  Timing            203.39 (total)
+                    1.45 (presolve)
+                    0.00 (postsolve)
+  Nodes             3
+  LP iterations     120849 (total)
+                    65917 (strong br.)
+                    3265 (separation)
+                    13233 (heuristics)
+Writing the solution to tmp/mp_h10_od_d0.85_AZPlC_0_sol.txt
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Number of PL entries in BOUNDS section is 10
+Number of BV entries in BOUNDS section is 43884
+MIP  mp_h10_od_d0.85_AZPlC_1 has 76267 rows; 43926 cols; 302847 nonzeros; 43915 integer variables
+Presolving model
+45484 rows, 38890 cols, 183463 nonzeros
+40725 rows, 36464 cols, 160430 nonzeros
+
+Solving MIP model with:
+   40725 rows
+   36464 cols (36438 binary, 17 integer, 9 implied int., 0 continuous)
+   160430 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -6502.212862    inf                  inf        0      0      0         0     1.7s
+         0       0         0   0.00%   -364.0321003    inf                  inf        0      0      8     21627     9.1s
+         0       0         0   0.00%   -352.1646387    inf                  inf       95     14      9     24145    14.3s
+         0       0         0   0.00%   -352.0662147    inf                  inf      288     22     13     24580    22.2s
+         0       0         0   0.00%   -352.0239844    inf                  inf      470     28     82     25091    70.2s
+ L       0       0         0   0.00%   -352.0239844    -350.5340341       0.43%      470     28     82     25091    98.4s
+ L       0       0         0   0.00%   -352.0185487    -351.1905546       0.24%      475     32     82     35583   113.4s
+
+55.2% inactive integer columns, restarting
+Model after restart has 15512 rows, 15345 cols (15326 bin., 10 int., 9 impl., 0 cont.), and 67481 nonzeros
+
+         0       0         0   0.00%   -352.0085328    -351.1905546       0.23%       20      0      0     39193   115.6s
+         0       0         0   0.00%   -352.0085328    -351.1905546       0.23%       20     20      8     49414   119.5s
+
+4.7% inactive integer columns, restarting
+Model after restart has 14582 rows, 14458 cols (14439 bin., 10 int., 9 impl., 0 cont.), and 63006 nonzeros
+
+         0       0         0   0.00%   -352.0035447    -351.1905546       0.23%       22      0      0     49553   123.9s
+         0       0         0   0.00%   -352.0035447    -351.1905546       0.23%       22     22      6     55413   126.2s
+
+Symmetry detection completed in 0.0s
+Found 1 full orbitope(s) acting on 12 columns
+
+         2       0         1  50.00%   -352.0035353    -351.1905546       0.23%       50     22    306    132416   180.0s
+         7       0         2  53.12%   -352.0035353    -351.1905546       0.23%       53     22    319    181129   208.7s
+        35       3        14  78.12%   -352.0035353    -351.1905546       0.23%       64     22    646    185856   215.3s
+        53       4        23  84.38%   -351.8943822    -351.1905546       0.20%      534     34    998    189387   221.6s
+        58       3        25  86.72%   -351.8943822    -351.1905546       0.20%     1362     53   1085    195764   230.5s
+        68       2        31  90.62%   -351.8943822    -351.1905546       0.20%     1726     41   1257    198973   235.6s
+        84       4        37  91.96%   -351.8943822    -351.1905546       0.20%     1736     41   1535    204217   241.0s
+        93       3        40  92.29%   -351.8943822    -351.1905546       0.20%     1879     51   1639    211774   248.1s
+       104       4        47  97.36%   -351.7560105    -351.1905546       0.16%     2466     45   1755    215579   253.7s
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+       117       4        53  97.56%   -351.5971492    -351.1905546       0.12%     4073     61   1904    219350   259.5s
+       120       1        53  98.44%   -351.5971492    -351.1905546       0.12%     3999     47   2209    222825   265.2s
+
+Solving report
+  Status            Optimal
+  Primal bound      -351.1905546
+  Dual bound        -351.225141918
+  Gap               0.00985% (tolerance: 0.01%)
+  Solution status   feasible
+                    -351.1905546 (objective)
+                    0 (bound viol.)
+                    1.22124532709e-14 (int. viol.)
+                    0 (row viol.)
+  Timing            266.68 (total)
+                    1.60 (presolve)
+                    0.00 (postsolve)
+  Nodes             121
+  LP iterations     224175 (total)
+                    135616 (strong br.)
+                    7995 (separation)
+                    13371 (heuristics)
+Writing the solution to tmp/mp_h10_od_d0.85_AZPlC_1_sol.txt
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Number of PL entries in BOUNDS section is 9
+Number of BV entries in BOUNDS section is 39035
+MIP  mp_h9_od_d0.85_bQ6ba_0 has 67820 rows; 39073 cols; 268651 nonzeros; 39063 integer variables
+Presolving model
+40740 rows, 34696 cols, 163059 nonzeros
+36078 rows, 32300 cols, 141192 nonzeros
+
+Solving MIP model with:
+   36078 rows
+   32300 cols (32277 binary, 15 integer, 8 implied int., 0 continuous)
+   141192 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -6433.363025    inf                  inf        0      0      0         0     1.7s
+         0       0         0   0.00%   -394.1854285    inf                  inf        0      0      1     16472     7.1s
+         0       0         0   0.00%   -386.6838817    inf                  inf      250     16      7     18191    12.2s
+ C       0       0         0   0.00%   -383.69707      342.6016194      212.00%      721     32     33     18792    28.8s
+ L       0       0         0   0.00%   -383.69707      -382.3340952       0.36%      721     32     33     18792    56.8s
+ L       0       0         0   0.00%   -383.6382539    -382.5651708       0.28%      736     39     33     29015    60.8s
+
+60.1% inactive integer columns, restarting
+Model after restart has 11941 rows, 11904 cols (11886 bin., 10 int., 8 impl., 0 cont.), and 51398 nonzeros
+
+         0       0         0   0.00%   -383.6196628    -382.5651708       0.28%       15      0      0     30397    62.1s
+         0       0         0   0.00%   -383.6196628    -382.5651708       0.28%       15     15      7     36692    63.9s
+         0       0         0   0.00%   -383.538905     -382.5651708       0.25%      224     17      7     44531    78.1s
+
+7.3% inactive integer columns, restarting
+Model after restart has 10741 rows, 10629 cols (10611 bin., 10 int., 8 impl., 0 cont.), and 46028 nonzeros
+
+         0       0         0   0.00%   -383.538905     -382.5651708       0.25%       16      0      0     44531    78.4s
+         0       0         0   0.00%   -383.538905     -382.5651708       0.25%       16     16      4     47200    79.4s
+
+Symmetry detection completed in 0.0s
+Found 5 full orbitope(s) acting on 40 columns
+
+         2       0         1  50.00%   -383.538905     -382.5651708       0.25%       24     16     71     77580    95.3s
+ T       4       0         2  75.00%   -382.8396443    -382.8189803       0.01%       33     16    179     79685    98.1s
+
+Solving report
+  Status            Optimal
+  Primal bound      -382.8189803
+  Dual bound        -382.827715718
+  Gap               0.00228% (tolerance: 0.01%)
+  Solution status   feasible
+                    -382.8189803 (objective)
+                    0 (bound viol.)
+                    3.77475828373e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            98.07 (total)
+                    1.36 (presolve)
+                    0.00 (postsolve)
+  Nodes             6
+  LP iterations     81081 (total)
+                    32301 (strong br.)
+                    2982 (separation)
+                    18782 (heuristics)
+Writing the solution to tmp/mp_h9_od_d0.85_bQ6ba_0_sol.txt
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Number of PL entries in BOUNDS section is 9
+Number of BV entries in BOUNDS section is 39035
+MIP  mp_h9_od_d0.85_nnVLy_0 has 67820 rows; 39073 cols; 268651 nonzeros; 39063 integer variables
+Presolving model
+40740 rows, 34696 cols, 163059 nonzeros
+36078 rows, 32300 cols, 141192 nonzeros
+
+Solving MIP model with:
+   36078 rows
+   32300 cols (32277 binary, 15 integer, 8 implied int., 0 continuous)
+   141192 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -6433.363025    inf                  inf        0      0      0         0     1.5s
+         0       0         0   0.00%   -394.1854285    inf                  inf        0      0      1     16472     6.2s
+         0       0         0   0.00%   -383.7362541    inf                  inf      556     25      9     18502    13.1s
+ C       0       0         0   0.00%   -383.69707      342.6016194      212.00%      721     32     33     18792    27.6s
+ L       0       0         0   0.00%   -383.69707      -382.3340952       0.36%      721     32     33     18792    49.6s
+ L       0       0         0   0.00%   -383.6382539    -382.5651708       0.28%      736     39     33     29015    52.5s
+
+60.1% inactive integer columns, restarting
+Model after restart has 11941 rows, 11904 cols (11886 bin., 10 int., 8 impl., 0 cont.), and 51398 nonzeros
+
+         0       0         0   0.00%   -383.6196628    -382.5651708       0.28%       15      0      0     30397    53.6s
+         0       0         0   0.00%   -383.6196628    -382.5651708       0.28%       15     15      7     36692    55.3s
+         0       0         0   0.00%   -383.538905     -382.5651708       0.25%      224     17      7     44531    68.4s
+
+7.3% inactive integer columns, restarting
+Model after restart has 10741 rows, 10629 cols (10611 bin., 10 int., 8 impl., 0 cont.), and 46028 nonzeros
+
+         0       0         0   0.00%   -383.538905     -382.5651708       0.25%       16      0      0     44531    68.7s
+         0       0         0   0.00%   -383.538905     -382.5651708       0.25%       16     16      4     47200    69.6s
+
+Symmetry detection completed in 0.0s
+Found 5 full orbitope(s) acting on 40 columns
+
+         2       0         1  50.00%   -383.538905     -382.5651708       0.25%       24     16     71     77580    84.1s
+ T       4       0         2  75.00%   -382.8396443    -382.8189803       0.01%       33     16    179     79685    86.8s
+
+Solving report
+  Status            Optimal
+  Primal bound      -382.8189803
+  Dual bound        -382.827715718
+  Gap               0.00228% (tolerance: 0.01%)
+  Solution status   feasible
+                    -382.8189803 (objective)
+                    0 (bound viol.)
+                    3.77475828373e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            86.84 (total)
+                    1.25 (presolve)
+                    0.00 (postsolve)
+  Nodes             6
+  LP iterations     81081 (total)
+                    32301 (strong br.)
+                    2982 (separation)
+                    18782 (heuristics)
+Writing the solution to tmp/mp_h9_od_d0.85_nnVLy_0_sol.txt
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Number of PL entries in BOUNDS section is 9
+Number of BV entries in BOUNDS section is 39035
+MIP  mp_h9_od_d0.85_nnVLy_1 has 67821 rows; 39073 cols; 269040 nonzeros; 39063 integer variables
+Presolving model
+40741 rows, 34696 cols, 163448 nonzeros
+36079 rows, 32300 cols, 141566 nonzeros
+
+Solving MIP model with:
+   36079 rows
+   32300 cols (32277 binary, 15 integer, 8 implied int., 0 continuous)
+   141566 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -6433.363025    inf                  inf        0      0      0         0     1.5s
+         0       0         0   0.00%   -394.1854285    inf                  inf        0      0      2     16375     6.5s
+         0       0         0   0.00%   -386.2784285    inf                  inf      490     19     11     18505    12.7s
+ C       0       0         0   0.00%   -383.7362541    529.4348914      172.48%      639     21     35     18865    28.0s
+ L       0       0         0   0.00%   -383.7362541    -380.1275665       0.95%      639     21     35     18865    48.1s
+ L       0       0         0   0.00%   -383.6619682    -381.4267269       0.59%      871     26     35     27311    58.4s
+
+29.3% inactive integer columns, restarting
+Model after restart has 23247 rows, 22179 cols (22157 bin., 14 int., 8 impl., 0 cont.), and 97466 nonzeros
+
+         0       0         0   0.00%   -383.6326428    -381.4267269       0.58%       17      0      0     31012    60.0s
+         0       0         0   0.00%   -383.6326428    -381.4267269       0.58%       17     14      4     48893    65.3s
+         0       0         0   0.00%   -383.5488845    -381.4267269       0.56%      138     33      4     49511    70.8s
+ L       0       0         0   0.00%   -383.5488845    -381.6524797       0.50%      138     33      4     49511    89.7s
+
+3.8% inactive integer columns, restarting
+Model after restart has 22051 rows, 21227 cols (21205 bin., 14 int., 8 impl., 0 cont.), and 92887 nonzeros
+
+         0       0         0   0.00%   -383.5479322    -381.6524797       0.50%       19      0      0     56865    90.9s
+         0       0         0   0.00%   -383.5479322    -381.6524797       0.50%       19     18      3     59521    92.4s
+
+Symmetry detection completed in 0.0s
+Found 5 full orbitope(s) acting on 40 columns
+
+         5       0         1   6.25%   -383.5479189    -381.6524797       0.50%       34     18    354    183786   182.1s
+        30       2         9  25.09%   -383.5479189    -381.6524797       0.50%       44     18    839    187051   187.3s
+        57       6        19  25.47%   -383.5479189    -381.6524797       0.50%       62     18   1756    190339   192.7s
+        85       9        30  25.65%   -383.5479189    -381.6524797       0.50%       74     18   2311    193562   198.0s
+ B     104      17        39  25.80%   -383.0034231    -381.6572092       0.35%      377     31   2977    195670   205.1s
+       112      13        44  25.92%   -383.0034231    -381.6572092       0.35%      592     40   3232    199388   212.3s
+ T     121      13        47  25.92%   -383.0034231    -381.6839177       0.35%      595     40   3422    199648   213.4s
+ T     123      13        49  25.93%   -383.0034231    -381.7115548       0.34%      597     40   3503    199787   213.7s
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+ B     141      14        56  25.97%   -383.0034231    -381.7265584       0.33%      609     40   3836    201958   218.2s
+       171      24        64  26.19%   -383.0031615    -381.7265584       0.33%      627     26   4433    209471   228.8s
+       190      21        72  26.34%   -383.0031615    -381.7265584       0.33%      708     24   4761    212817   233.9s
+ B     201      18        78  27.22%   -383.0031615    -381.8114175       0.31%     1066     37   5073    214425   240.1s
+       207      15        80  40.11%   -382.989547     -381.8114175       0.31%     1600     41   5422    221030   248.1s
+       209      13        81  43.63%   -382.989547     -381.8114175       0.31%     2104     34   5875    223642   253.8s
+       215      14        82  45.97%   -382.989547     -381.8114175       0.31%     2188     44   5930    229017   259.3s
+       234      16        89  48.02%   -382.989547     -381.8114175       0.31%     2179     46   6182    232360   264.4s
+ T     242      16        93  48.85%   -382.989547     -381.8614138       0.30%     2182     46   6284    233646   265.7s
+ T     243      15        94  48.93%   -382.989547     -381.8813593       0.29%     2183     46   6284    233651   266.1s
+ T     246      13        95  49.05%   -382.989547     -381.9331983       0.28%     2185     46   6303    234070   266.5s
+ B     247      12        96  49.27%   -382.989547     -382.0528093       0.25%     2188     46   6354    234412   267.1s
+ T     248      12        96  49.71%   -382.989547     -382.1195423       0.23%     2189     46   6354    234678   267.4s
+       252       9       100  76.76%   -382.8225507    -382.1195423       0.18%     2376     40   6658    239894   274.5s
+ T     252       7       100  79.88%   -382.8225507    -382.1271625       0.18%     2379     42   6669    239918   276.3s
+ T     256       6       102  84.18%   -382.8225507    -382.1627491       0.17%     2352     44   6732    241429   277.4s
+       274       7       108  84.38%   -382.8225507    -382.1627491       0.17%     2351     24   7008    243725   282.6s
+       279       6       109  84.77%   -382.8225507    -382.1627491       0.17%     2577     61   7328    249455   291.7s
+       292       2       118  93.36%   -382.5772666    -382.1627491       0.11%     2412     34   7764    252106   297.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      -382.1627491
+  Dual bound        -382.198886537
+  Gap               0.00946% (tolerance: 0.01%)
+  Solution status   feasible
+                    -382.1627491 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            298.35 (total)
+                    1.31 (presolve)
+                    0.00 (postsolve)
+  Nodes             294
+  LP iterations     252635 (total)
+                    144016 (strong br.)
+                    8590 (separation)
+                    18971 (heuristics)
+Writing the solution to tmp/mp_h9_od_d0.85_nnVLy_1_sol.txt
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Number of PL entries in BOUNDS section is 9
+Number of BV entries in BOUNDS section is 39035
+MIP  mp_h9_od_d0.85_nnVLy_2 has 67822 rows; 39073 cols; 269429 nonzeros; 39063 integer variables
+Presolving model
+40742 rows, 34696 cols, 163837 nonzeros
+36080 rows, 32300 cols, 141940 nonzeros
+
+Solving MIP model with:
+   36080 rows
+   32300 cols (32277 binary, 15 integer, 8 implied int., 0 continuous)
+   141940 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -6433.363025    inf                  inf        0      0      0         0     2.2s
+         0       0         0   0.00%   -394.1854285    inf                  inf        0      0      1     16739    10.5s
+         0       0         0   0.00%   -386.8937245    inf                  inf      112     16      6     18086    15.8s
+ C       0       0         0   0.00%   -383.6261606    411.8685914      193.14%      453     36     34     19067    42.7s
+ L       0       0         0   0.00%   -383.6261606    -382.0120446       0.42%      453     36     34     19067    78.4s
+
+42.7% inactive integer columns, restarting
+Model after restart has 18228 rows, 17678 cols (17657 bin., 13 int., 8 impl., 0 cont.), and 77142 nonzeros
+
+         0       0         0   0.00%   -383.6159747    -382.0120446       0.42%       19      0      0     30980    83.7s
+         0       0         0   0.00%   -383.6150027    -382.0120446       0.42%       19     18      3     40343    87.0s
+         0       0         0   0.00%   -383.3326178    -382.0120446       0.35%     1482     26      3     41028    92.6s
+         0       0         0   0.00%   -383.205731     -382.0120446       0.31%     1873     16      3     51356   121.8s
+
+10.7% inactive integer columns, restarting
+Model after restart has 15458 rows, 15279 cols (15260 bin., 11 int., 8 impl., 0 cont.), and 67652 nonzeros
+
+         0       0         0   0.00%   -383.205731     -382.0120446       0.31%       16      0      0     51356   122.4s
+         0       0         0   0.00%   -383.205731     -382.0120446       0.31%       16     16      6     56634   125.0s
+
+5.9% inactive integer columns, restarting
+Model after restart has 14378 rows, 14200 cols (14181 bin., 11 int., 8 impl., 0 cont.), and 63092 nonzeros
+
+         0       0         0   0.00%   -383.2043635    -382.0120446       0.31%       16      0      0     56675   128.7s
+         0       0         0   0.00%   -383.2043635    -382.0120446       0.31%       16     16      3     63722   132.0s
+
+Symmetry detection completed in 0.0s
+Found 5 full orbitope(s) acting on 40 columns
+
+         5       2         1   6.25%   -383.2032258    -382.0120446       0.31%       57     16   1159    158730   201.0s
+         9       2         3  43.75%   -383.2032258    -382.0120446       0.31%       69     16   1460    177355   211.8s
+ B      10       2         4  56.25%   -383.2032258    -382.1195423       0.28%       81     16   1786    178635   214.8s
+        14       0         5 100.00%   -382.1540716    -382.1195423       0.01%      514     28   2330    183756   221.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      -382.1195423
+  Dual bound        -382.15407156
+  Gap               0.00904% (tolerance: 0.01%)
+  Solution status   feasible
+                    -382.1195423 (objective)
+                    0 (bound viol.)
+                    4.4408920985e-16 (int. viol.)
+                    0 (row viol.)
+  Timing            220.97 (total)
+                    2.18 (presolve)
+                    0.00 (postsolve)
+  Nodes             14
+  LP iterations     183756 (total)
+                    113481 (strong br.)
+                    3624 (separation)
+                    21954 (heuristics)
+Writing the solution to tmp/mp_h9_od_d0.85_nnVLy_2_sol.txt
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Number of PL entries in BOUNDS section is 9
+Number of BV entries in BOUNDS section is 39035
+MIP  mp_h9_od_d0.85_nnVLy_3 has 67823 rows; 39073 cols; 269818 nonzeros; 39063 integer variables
+Presolving model
+40743 rows, 34696 cols, 164226 nonzeros
+36081 rows, 32300 cols, 142314 nonzeros
+
+Solving MIP model with:
+   36081 rows
+   32300 cols (32277 binary, 15 integer, 8 implied int., 0 continuous)
+   142314 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -6433.363025    inf                  inf        0      0      0         0     1.5s
+         0       0         0   0.00%   -394.1344285    inf                  inf        0      0      2     16687     6.5s
+         0       0         0   0.00%   -383.721647     inf                  inf      254     27      8     18756    11.9s
+ C       0       0         0   0.00%   -383.6279023    420.8770884      191.15%      430     31     34     19504    29.9s
+ L       0       0         0   0.00%   -383.6279023    -381.7212741       0.50%      430     31     34     19504    59.6s
+         0       0         0   0.00%   -383.610086     -381.7212741       0.49%      453     18    134     38957    71.9s
+
+30.7% inactive integer columns, restarting
+Model after restart has 22507 rows, 21671 cols (21650 bin., 13 int., 8 impl., 0 cont.), and 95157 nonzeros
+
+         0       0         0   0.00%   -383.610086     -381.7212741       0.49%       17      0      0     38957    72.5s
+         0       0         0   0.00%   -383.610086     -381.7212741       0.49%       17     16      6     53596    77.4s
+
+11.4% inactive integer columns, restarting
+Model after restart has 19099 rows, 18614 cols (18594 bin., 12 int., 8 impl., 0 cont.), and 82766 nonzeros
+
+         0       0         0   0.00%   -383.2486165    -381.7212741       0.40%       13      0      0     54036    81.0s
+         0       0         0   0.00%   -383.2486165    -381.7212741       0.40%       13     12      4     58867    82.8s
+         0       0         0   0.00%   -383.1543037    -381.7212741       0.38%      199     29      4     59581    88.1s
+
+2.8% inactive integer columns, restarting
+Model after restart has 18372 rows, 17962 cols (17942 bin., 12 int., 8 impl., 0 cont.), and 79935 nonzeros
+
+         0       0         0   0.00%   -383.1530375    -381.7212741       0.38%       20      0      0     59719    91.2s
+         0       0         0   0.00%   -383.1530375    -381.7212741       0.38%       20     19      2     62926    92.6s
+
+Symmetry detection completed in 0.0s
+Found 5 full orbitope(s) acting on 40 columns
+
+         4       0         1  12.50%   -383.1530375    -381.7212741       0.38%       29     19    183    136793   144.6s
+         7       0         2  15.62%   -383.1530375    -381.7212741       0.38%       34     19    449    157302   157.7s
+ B       7       0         2  15.62%   -383.1530375    -381.8007703       0.35%       38     19    632    157302   163.7s
+ B      14       5         2  16.70%   -382.8609559    -381.9025866       0.25%       45     20    725    163966   165.4s
+        20       2         4  20.31%   -382.8609559    -381.9025866       0.25%      175     33   1133    182479   183.7s
+        22       2         6  25.00%   -382.8609559    -381.9025866       0.25%      201     33   1780    185355   189.2s
+        30       0         8  50.78%   -382.8609559    -381.9025866       0.25%     1028     43   2017    201453   207.6s
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+        44       1        13  51.09%   -382.8609559    -381.9025866       0.25%     1042     43   2389    203740   212.7s
+        59       2        21  51.76%   -382.8609559    -381.9025866       0.25%     1059     43   3280    206083   218.6s
+        66       7        24  51.90%   -382.6298557    -381.9025866       0.19%     1215     55   3669    208072   224.0s
+        75       9        25  52.20%   -382.6298557    -381.9025866       0.19%     1261     52   3979    211889   231.1s
+ T      75       8        25  52.20%   -382.6298557    -381.9268869       0.18%     1845     38   3981    211984   232.4s
+ T      77       6        27  52.34%   -382.6298557    -381.9890752       0.17%     1856     40   4090    212589   234.7s
+ B      85       6        30  77.51%   -382.6120123    -382.0130216       0.16%     1810     31   4382    217900   239.8s
+ T      89       6        31  77.59%   -382.6120123    -382.0584244       0.14%     1778     34   4580    219530   242.2s
+       149       7        59  77.65%   -382.6120123    -382.0584244       0.14%     1795     34   5091    222194   247.2s
+       189       7        77  77.66%   -382.6120123    -382.0584244       0.14%     1320     37   5687    224554   252.3s
+       191       5        77  90.19%   -382.5934502    -382.0584244       0.14%     1448     39   5998    228212   259.1s
+       203       1        84  91.41%   -382.5934502    -382.0584244       0.14%     1731     44   6291    232608   268.1s
+       217       1        91  96.88%   -382.1411635    -382.0584244       0.02%     1906     52   6589    237021   274.9s
+
+Solving report
+  Status            Optimal
+  Primal bound      -382.0584244
+  Dual bound        -382.095697826
+  Gap               0.00976% (tolerance: 0.01%)
+  Solution status   feasible
+                    -382.0584244 (objective)
+                    0 (bound viol.)
+                    1.63291602462e-12 (int. viol.)
+                    0 (row viol.)
+  Timing            275.53 (total)
+                    1.79 (presolve)
+                    0.00 (postsolve)
+  Nodes             218
+  LP iterations     237173 (total)
+                    139256 (strong br.)
+                    7541 (separation)
+                    19358 (heuristics)
+Writing the solution to tmp/mp_h9_od_d0.85_nnVLy_3_sol.txt
+Running HiGHS 1.6.0: Copyright (c) 2023 HiGHS under MIT licence terms
+Number of PL entries in BOUNDS section is 9
+Number of BV entries in BOUNDS section is 39035
+MIP  mp_h9_od_d0.85_nnVLy_4 has 67824 rows; 39073 cols; 270207 nonzeros; 39063 integer variables
+Presolving model
+40744 rows, 34696 cols, 164615 nonzeros
+36082 rows, 32300 cols, 142688 nonzeros
+
+Solving MIP model with:
+   36082 rows
+   32300 cols (32277 binary, 15 integer, 8 implied int., 0 continuous)
+   142688 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   -6433.363025    inf                  inf        0      0      0         0     1.5s
+         0       0         0   0.00%   -394.1344285    inf                  inf        0      0      4     16549     6.3s
+         0       0         0   0.00%   -383.433634     inf                  inf      275     30     14     18554    11.6s
+ C       0       0         0   0.00%   -383.1991985    442.3176654      186.63%      539     36     40     18916    26.3s
+ L       0       0         0   0.00%   -383.1991985    -381.8435587       0.36%      539     36     40     18916    53.2s
+
+50.9% inactive integer columns, restarting
+Model after restart has 15314 rows, 15012 cols (14992 bin., 12 int., 8 impl., 0 cont.), and 65640 nonzeros
+
+         0       0         0   0.00%   -383.1940607    -381.8435587       0.35%       15      0      0     30471    58.1s
+         0       0         0   0.00%   -383.1940607    -381.8435587       0.35%       15     14      3     36277    60.1s
+         0       0         0   0.00%   -383.1475426    -381.8435587       0.34%      403     30      3     37009    65.2s
+ L       0       0         0   0.00%   -383.1475426    -381.9025866       0.33%      403     30      3     37009    84.7s
+
+7.2% inactive integer columns, restarting
+Model after restart has 13811 rows, 13540 cols (13521 bin., 11 int., 8 impl., 0 cont.), and 59577 nonzeros
+
+         0       0         0   0.00%   -383.1474559    -381.9025866       0.33%       19      0      0     46048    85.7s
+         0       0         0   0.00%   -383.1474559    -381.9025866       0.33%       19     19      6     49370    87.0s
+
+Symmetry detection completed in 0.0s
+Found 5 full orbitope(s) acting on 40 columns
+
+         3       0         1  25.00%   -383.1474559    -381.9025866       0.33%       25     19     56     95289   111.6s
+         6       0         2  31.25%   -383.1474559    -381.9025866       0.33%       47     19    622    119735   128.6s
+        11       1         4  68.75%   -382.9363649    -381.9025866       0.27%       76     24   1055    167465   159.2s
+        32       3        12  88.35%   -382.9363649    -381.9025866       0.27%       85     24   1242    173606   164.5s
+        47       4        18  95.02%   -382.5199876    -381.9025866       0.16%      389     34   1605    178814   170.2s
+        76       3        31  97.19%   -382.5199876    -381.9025866       0.16%      505     37   1898    185224   177.6s
+       104       4        40  98.54%   -382.1521199    -381.9025866       0.07%      981     48   2222    189181   183.8s
+
+Solving report
+  Status            Optimal
+  Primal bound      -381.9025866
+  Dual bound        -381.940629591
+  Gap               0.00996% (tolerance: 0.01%)
+  Solution status   feasible
+                    -381.9025866 (objective)
+                    0 (bound viol.)
+                    1.7763568394e-15 (int. viol.)
+                    0 (row viol.)
+  Timing            185.11 (total)
+                    1.33 (presolve)
+                    0.00 (postsolve)
+  Nodes             108
+  LP iterations     190205 (total)
+                    123060 (strong br.)
+                    4116 (separation)
+                    20495 (heuristics)
+Writing the solution to tmp/mp_h9_od_d0.85_nnVLy_4_sol.txt
